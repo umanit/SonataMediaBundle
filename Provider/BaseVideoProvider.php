@@ -157,7 +157,6 @@ abstract class BaseVideoProvider extends BaseProvider
 
         $this->generateThumbnails($media);
 
-        $media->resetBinaryContent();
     }
 
     /**
